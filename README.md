@@ -14,9 +14,9 @@ Ou clique em "Criar conta" para gerar seu próprio usuário.
 ## O "banco de dados"
 Como é um projeto 100% front-end (sem back-end), os dados ficam salvos no **localStorage** do navegador — ou seja, funcionam como um banco de dados real: persistem entre acessos, mas apenas *nesse* navegador/computador. Os arquivos:
 
-- `js/db.js` — define as "tabelas" (livros, usuários, publicações), os dados iniciais (seed) e as funções de leitura/gravação (`loadDB`, `saveDB`).
-- `js/app.js` — todas as regras do app: login/cadastro, marcar livros como lidos/lendo/quero ler, ganhar XP e subir de nível, seguir usuários, publicar livros e posts, curtir.
-- `css/style.css` — toda a identidade visual.
+- `db.js` — define as "tabelas" (livros, usuários, publicações), os dados iniciais (seed) e as funções de leitura/gravação (`loadDB`, `saveDB`).
+- `app.js` — todas as regras do app: login/cadastro, marcar livros como lidos/lendo/quero ler, ganhar XP e subir de nível, seguir usuários, publicar livros e posts, curtir.
+- `style.css` — toda a identidade visual.
 
 Se quiser "zerar" os dados de teste, abra o console do navegador (F12) e rode `resetDB()`.
 
